@@ -1,0 +1,5 @@
+@echo off
+
+cd C:\cloudflared
+
+cloudflared.exe tunnel --url http://localhost:80
